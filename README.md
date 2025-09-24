@@ -31,8 +31,6 @@ My third round of iteration included [iterating on the scatter plot to use two p
 Most recently, I went ahead and updated the data to use the clean/simplied data so more points can be used & added bar charts to match the sketches instead of a scatter plot. 
 [![image](https://github.com/user-attachments/assets/350ca075-84b3-412b-b223-3c872224c529)](https://vizhub.com/alexiscaira/3d91add8f7ad432aa264ccd1328783ea)
 
-// TODO AC ADD in link
-
 ## Open Questions
 For this project, I'm still exploring ways to show the states and showing everything in a wholistic picture, given that the histogram/bar chart would show the correlation the cleanest compared to just an overlay over the states displaying the data. Using the geo data would be fun, but I don't think it blends well to the weather angle I want to run at and just want to make sure I have enough to really build out a cool viz. 
 
