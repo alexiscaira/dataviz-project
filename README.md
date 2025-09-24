@@ -29,6 +29,7 @@ My third round of iteration included [iterating on the scatter plot to use two p
 [![image](https://github.com/user-attachments/assets/6d233b6c-6904-4f0a-9691-f7f0a0109030)](https://vizhub.com/alexiscaira/a39e7ee4ad4e4629bd232221d1213249)
 
 Most recently, I went ahead and updated the data to use the clean/simplied data so more points can be used & added bar charts to match the sketches instead of a scatter plot. 
+[![image](https://github.com/user-attachments/assets/350ca075-84b3-412b-b223-3c872224c529)](https://vizhub.com/alexiscaira/3d91add8f7ad432aa264ccd1328783ea)
 
 // TODO AC ADD in link
 
