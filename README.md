@@ -19,25 +19,33 @@ The following tasks and questions will drive the visualization and interaction d
 In the above sketches, I've outlined some ideas of how users can interact with the chart to change the type of relation they are looking at, likely by a drop down and toggles but I am exploring more ways to make this more fun. I don't think tool-tips would be partically exciting, but it would be nice to get some cross fades and animations going to really make it look nice. The multiple types of interactions allow users to see how each type would change the total, since the y axis is number of reports and should stay the same scale across graphics. For the bars, I also thought it would be fun to get an animation of something like leaves or snow falling when the user hovers over a type of precipitation. 
 
 ## Prototypes
+### Week 1
 My first round of iteration included [loading in the data](https://vizhub.com/alexiscaira/70933d6a9c7b470389d47af21262f796):
 [![image](https://github.com/user-attachments/assets/7193c856-25c9-49c9-96b3-24971253d441)](https://vizhub.com/alexiscaira/70933d6a9c7b470389d47af21262f796)
 
+### Week 2
 My second round of iteration included [creating a scatter plot of two points in the data ](https://vizhub.com/alexiscaira/70933d6a9c7b470389d47af21262f796):
 [![image](https://github.com/user-attachments/assets/b1fb0c70-0922-480f-964b-5e03f52ceb7d)](https://vizhub.com/alexiscaira/7f68f7b51f354021930fe9596dc14685)
 
+### Week 4
 My third round of iteration included [iterating on the scatter plot to use two points of relevent the data and add axis/labels](https://vizhub.com/alexiscaira/a39e7ee4ad4e4629bd232221d1213249):
 [![image](https://github.com/user-attachments/assets/6d233b6c-6904-4f0a-9691-f7f0a0109030)](https://vizhub.com/alexiscaira/a39e7ee4ad4e4629bd232221d1213249)
 
+### Week 5
 Most recently, I went ahead and updated the data to use the clean/simplied data so more points can be used & added bar charts to match the sketches instead of a scatter plot. 
 [![image](https://github.com/user-attachments/assets/1abd463a-1dfd-4828-b08b-c2222e73a3d0)](https://vizhub.com/alexiscaira/3d91add8f7ad432aa264ccd1328783ea)
+
+### Week Six
+For week six, I went ahead and updated the viz to now toggle between the weather patterns. This included updating the data for the x-axis, titles, and the lables along with adding the drop down box. 
+[![image](https://github.com/user-attachments/assets/bcfe7bf9-d979-419b-95bd-b08897bad7b9)](https://vizhub.com/alexiscaira/2b5047c1ad7e48799ba400d0ec7ad0a5)
 
 ## Open Questions
 For this project, I'm still exploring ways to show the states and showing everything in a wholistic picture, given that the histogram/bar chart would show the correlation the cleanest compared to just an overlay over the states displaying the data. Using the geo data would be fun, but I don't think it blends well to the weather angle I want to run at and just want to make sure I have enough to really build out a cool viz. 
 
 ## Milestones
-Week 5: Updated the data to use the clean/simplied data so more points can be used & added bar charts to match the sketches instead of a scatter plot.
+~Week 5: Updated the data to use the clean/simplied data so more points can be used & added bar charts to match the sketches instead of a scatter plot.~
 
-Week 6: Create a concept of state & enable users to change the type of data via a input source & update the graphs/axis label/title to reflect
+~Week 6: Create a concept of state & enable users to change the type of data via a input source & update the graphs/axis label/title to reflect~
 
 Week 7: Split bars by perciptation type
 
