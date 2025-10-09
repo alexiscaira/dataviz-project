@@ -39,6 +39,10 @@ Most recently, I went ahead and updated the data to use the clean/simplied data 
 For week six, I went ahead and updated the viz to now toggle between the weather patterns. This included updating the data for the x-axis, titles, and the lables along with adding the drop down box. 
 [![image](https://github.com/user-attachments/assets/bcfe7bf9-d979-419b-95bd-b08897bad7b9)](https://vizhub.com/alexiscaira/2b5047c1ad7e48799ba400d0ec7ad0a5)
 
+### Week Seven
+For week seven, a few things were added including the bar chart coloring by type, and pickers to choose to view by season or type of percipation. There's also a new tool tip to show the total segment as well that matches the theme. This week, I think that I might pivot my project a bit and add a second type of visual in the next few weeks to use a map and geohash data, since that would round out the data used. I plan to use the city and state as tool-tip data and add markers shaped like bigfoot. At that point, I would have used almost every data column in the CSV which will feel pretty rounded out.
+[![week 7 demo mov](https://github.com/user-attachments/assets/cc41285d-a3c0-4581-a6cf-8edff06af33c)](https://vizhub.com/alexiscaira/b2322c7158ea424d9157c202aa31b435?mode=embed)
+
 ## Open Questions
 For this project, I'm still exploring ways to show the states and showing everything in a wholistic picture, given that the histogram/bar chart would show the correlation the cleanest compared to just an overlay over the states displaying the data. Using the geo data would be fun, but I don't think it blends well to the weather angle I want to run at and just want to make sure I have enough to really build out a cool viz. 
 
@@ -47,14 +51,14 @@ For this project, I'm still exploring ways to show the states and showing everyt
 
 ~Week 6: Create a concept of state & enable users to change the type of data via a input source & update the graphs/axis label/title to reflect~
 
-Week 7: Split bars by perciptation type
+~Week 7: Split bars by perciptation type/Add key for perciptation type~
 
-Week 8: Add key for perciptation type
+Week 8: Explore options for on-hover perciptation animation/Add trend toggle and display line
 
-Week 9: Explore options for on-hover perciptation animation
+Week 9: Add map and integrate geohash data
 
-Week 10: Add cross fade/animation for when chart changes (large unknown here - I've done this in Kotlin/Jetpack Compose but not in React Native)
+Week 10: Add markers shaped like bigfoots for area
 
-Week 11: Add trend toggle and interaction state
+Week 11: Add tool tip on hover to show city/state data
 
-Week 12: Display trend line on graph based on state and polish
+Week 12: Polish and integrate vizes to let users choose the view they want to use
