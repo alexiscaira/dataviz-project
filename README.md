@@ -43,6 +43,10 @@ For week six, I went ahead and updated the viz to now toggle between the weather
 For week seven, a few things were added including the bar chart coloring by type, and pickers to choose to view by season or type of percipation. There's also a new tool tip to show the total segment as well that matches the theme. This week, I think that I might pivot my project a bit and add a second type of visual in the next few weeks to use a map and geohash data, since that would round out the data used. I plan to use the city and state as tool-tip data and add markers shaped like bigfoot. At that point, I would have used almost every data column in the CSV which will feel pretty rounded out.
 [![week 7 demo mov](https://github.com/user-attachments/assets/cc41285d-a3c0-4581-a6cf-8edff06af33c)](https://vizhub.com/alexiscaira/b2322c7158ea424d9157c202aa31b435?mode=embed)
 
+### Week Nine
+For week nine, we now have a trend line that can be toggled on and off. We also have an on hover effect for rain and snow based on the bar you hover over (sorted by percipation type) which adds some fun pizzaz. 
+[![week 9 demo mov](https://github.com/user-attachments/assets/8c8fde0c-5f88-4537-a217-c526b96a95c9)](https://vizhub.com/alexiscaira/88a741e7705541198eabb2ded7bc4085?mode=embed)
+
 ## Open Questions
 For this project, I'm still exploring ways to show the states and showing everything in a wholistic picture, given that the histogram/bar chart would show the correlation the cleanest compared to just an overlay over the states displaying the data. Using the geo data would be fun, but I don't think it blends well to the weather angle I want to run at and just want to make sure I have enough to really build out a cool viz. 
 
@@ -53,12 +57,10 @@ For this project, I'm still exploring ways to show the states and showing everyt
 
 ~Week 7: Split bars by perciptation type/Add key for perciptation type~
 
-Week 8: Explore options for on-hover perciptation animation/Add trend toggle and display line
+~Week 9: Explore options for on-hover perciptation animation/Add trend toggle and display line~
 
-Week 9: Add map and integrate geohash data
+Week 10: Add map and integrate geohash data
 
-Week 10: Add markers shaped like bigfoots for area
-
-Week 11: Add tool tip on hover to show city/state data
+Week 11: Add markers shaped like bigfoots for area, Add tool tip on hover to show city/state data
 
 Week 12: Polish and integrate vizes to let users choose the view they want to use
