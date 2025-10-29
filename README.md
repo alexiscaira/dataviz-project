@@ -47,6 +47,10 @@ For week seven, a few things were added including the bar chart coloring by type
 For week nine, we now have a trend line that can be toggled on and off. We also have an on hover effect for rain and snow based on the bar you hover over (sorted by percipation type) which adds some fun pizzaz. 
 [![week 9 demo mov](https://github.com/user-attachments/assets/8c8fde0c-5f88-4537-a217-c526b96a95c9)](https://vizhub.com/alexiscaira/88a741e7705541198eabb2ded7bc4085?mode=embed)
 
+### Week Ten
+For week ten, we have a map with the geohash data integrated along with a toggle for both view states so you can go back and forth from the graph to this view. 
+[![image](https://github.com/user-attachments/assets/ca6d765f-a200-4c30-83ae-8fa46ee29ee4)](https://vizhub.com/alexiscaira/1e0ebcf019f6471191da476283f65781?mode=embed)
+
 ## Open Questions
 For this project, I'm still exploring ways to show the states and showing everything in a wholistic picture, given that the histogram/bar chart would show the correlation the cleanest compared to just an overlay over the states displaying the data. Using the geo data would be fun, but I don't think it blends well to the weather angle I want to run at and just want to make sure I have enough to really build out a cool viz. 
 
@@ -59,7 +63,7 @@ For this project, I'm still exploring ways to show the states and showing everyt
 
 ~Week 9: Explore options for on-hover perciptation animation/Add trend toggle and display line~
 
-Week 10: Add map and integrate geohash data
+~Week 10: Add map and integrate geohash data~
 
 Week 11: Add markers shaped like bigfoots for area, Add tool tip on hover to show city/state data
 
