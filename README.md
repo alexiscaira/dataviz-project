@@ -51,6 +51,10 @@ For week nine, we now have a trend line that can be toggled on and off. We also 
 For week ten, we have a map with the geohash data integrated along with a toggle for both view states so you can go back and forth from the graph to this view. 
 [![image](https://github.com/user-attachments/assets/ca6d765f-a200-4c30-83ae-8fa46ee29ee4)](https://vizhub.com/alexiscaira/1e0ebcf019f6471191da476283f65781?mode=embed)
 
+### Week Eleven
+For week 11, we have a map with the geohash data integrated that now has a zoom feature to zoom in and out of the map. I also have added location details to the tool tip to make it a bit more fun to hover around and read reports. 
+[![image](https://github.com/user-attachments/assets/fea52dcc-b708-42eb-8273-9136bb79b494)](https://vizhub.com/alexiscaira/7906aefd34674c4eaef72dce8c6c60ca?mode=embed)
+
 ## Open Questions
 For this project, I'm still exploring ways to show the states and showing everything in a wholistic picture, given that the histogram/bar chart would show the correlation the cleanest compared to just an overlay over the states displaying the data. Using the geo data would be fun, but I don't think it blends well to the weather angle I want to run at and just want to make sure I have enough to really build out a cool viz. 
 
@@ -65,6 +69,6 @@ For this project, I'm still exploring ways to show the states and showing everyt
 
 ~Week 10: Add map and integrate geohash data~
 
-Week 11: Add markers shaped like bigfoots for area, Add tool tip on hover to show city/state data
+~Week 11: Add markers shaped like bigfoots for area, Add tool tip on hover to show city/state data~
 
 Week 12: Polish and integrate vizes to let users choose the view they want to use
