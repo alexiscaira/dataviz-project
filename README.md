@@ -1,74 +1,60 @@
 # Data Visualization Project
 
-## Data
+## Background
 
-The data I propose to visualize for my project is from [Bigfoot Field Researchers Organization (BFRO)](https://www.bfro.net/GDB/) data set and includes reports from members across America. Because the orginal data set is very large in size (5000+ rows, 10.99 MB), I went ahead and cleaned it a second time (as the orginial was cleaned once prior) and removed the larger columns I would not be using (index, observed) and any rows that did not contain values for weather conditions (temp, pressure, etc.) which allows me to keep the spread of data in terms of place and time.
+Many claim they have spotted _Bigfoot_ (also commonly referred to as _Sasquatch_,) a large hairy man-like beast that often frequents the woods of North America. Bigfoot reports have dated back to before the written word, with earliest traces being found in native american folklore, but what about the claims of today? How does Bigfoot fit into the modern world and into American culture? Or is Bigfoot lost to time as sighting die out in the age of modern media and smart phone video? For this project, we'll be taking a look at a modern data set from the [Bigfoot Field Researchers Organization (BFRO)](https://www.bfro.net/GDB/) to spot trends visualize data to answer our questions about modern Bigfoot sightings across the United States from the 1990's and on. We'll try to answer if various weather conditions impact the number of reports claimed, if one type of weather condition corresponds with more reports than others, and also investigate what part of the United States has the most reports by state. 
 
-https://data.world/timothyrenner/bfro-sightings-data
+## Data Used
 
-## Questions & Tasks
+The data used for this project is from [Bigfoot Field Researchers Organization (BFRO)](https://www.bfro.net/GDB/) data set and includes reports from members across the United States. Because the original data set is very large in size (5000+ rows, 10.99 MB), it was cleaned it a second time (as the original was cleaned once prior, found at: https://data.world/timothyrenner/bfro-sightings-data) and removed the larger columns we would not be using (index, observed) and any rows that did not contain values for weather conditions (temperature, pressure, etc.) which allows me to keep the spread of data in terms of place and time. This allows the data to be unified and more normalized to better view trends.
 
-The following tasks and questions will drive the visualization and interaction decisions for this project:
+## Approach
 
-- How does various weather conditions impact the number of reports claimed? 
-- Does one type of weather condtion correspond with more reports than others (aka- what does big foot like?)
-- Are trends visible easily and the user can control what information is seen?
-  
-## Sketches
+For this process, we started with sketches to outline ideas of visualizations that users could interact with. The focus here was finding something that was both visually engaging but also understandable for users to see correlations and trends. 
+
 ![sketch iteration alexis](https://github.com/user-attachments/assets/7a131538-a454-4a05-a123-36740eb498c5)
-In the above sketches, I've outlined some ideas of how users can interact with the chart to change the type of relation they are looking at, likely by a drop down and toggles but I am exploring more ways to make this more fun. I don't think tool-tips would be partically exciting, but it would be nice to get some cross fades and animations going to really make it look nice. The multiple types of interactions allow users to see how each type would change the total, since the y axis is number of reports and should stay the same scale across graphics. For the bars, I also thought it would be fun to get an animation of something like leaves or snow falling when the user hovers over a type of precipitation. 
 
-## Prototypes
-### Week 1
-My first round of iteration included [loading in the data](https://vizhub.com/alexiscaira/70933d6a9c7b470389d47af21262f796):
-[![image](https://github.com/user-attachments/assets/7193c856-25c9-49c9-96b3-24971253d441)](https://vizhub.com/alexiscaira/70933d6a9c7b470389d47af21262f796)
+In the above sketches, we've outlined some ideas of how users can interact with the chart to change the type of relation they are looking at. This includes toggles and drop down menus, which is standard for web interfaces and provide a minimal learning curve to have users start to use the visualization. The multiple types of interactions allow users to see how each type would change the total, since the y axis is the number of reports and should stay the same scale across graphics.
 
-### Week 2
-My second round of iteration included [creating a scatter plot of two points in the data ](https://vizhub.com/alexiscaira/70933d6a9c7b470389d47af21262f796):
+## Iterations
+My first round of iteration included loading in the data, followed by a second iteration which was a scatterplot using two points in the set.
 [![image](https://github.com/user-attachments/assets/b1fb0c70-0922-480f-964b-5e03f52ceb7d)](https://vizhub.com/alexiscaira/7f68f7b51f354021930fe9596dc14685)
 
-### Week 4
-My third round of iteration included [iterating on the scatter plot to use two points of relevent the data and add axis/labels](https://vizhub.com/alexiscaira/a39e7ee4ad4e4629bd232221d1213249):
+These initial steps allowed us to get acclimatized to the set and figure out a direction for the project. By the fourth week, we used two relevant points from the data and added axis labels. 
+
 [![image](https://github.com/user-attachments/assets/6d233b6c-6904-4f0a-9691-f7f0a0109030)](https://vizhub.com/alexiscaira/a39e7ee4ad4e4629bd232221d1213249)
 
-### Week 5
-Most recently, I went ahead and updated the data to use the clean/simplied data so more points can be used & added bar charts to match the sketches instead of a scatter plot. 
+The next step was integrating the bar charts to replace the scatter plots in the data to better match the sketches made.
 [![image](https://github.com/user-attachments/assets/1abd463a-1dfd-4828-b08b-c2222e73a3d0)](https://vizhub.com/alexiscaira/3d91add8f7ad432aa264ccd1328783ea)
 
-### Week Six
-For week six, I went ahead and updated the viz to now toggle between the weather patterns. This included updating the data for the x-axis, titles, and the lables along with adding the drop down box. 
+The following week, we added a toggle and drop-down integration and allowed users to change the type of weather or variable they were looking at. This was a particularly important step as this allowed the axis name, titles, and labels to be dynamic based on the state.
+
 [![image](https://github.com/user-attachments/assets/bcfe7bf9-d979-419b-95bd-b08897bad7b9)](https://vizhub.com/alexiscaira/2b5047c1ad7e48799ba400d0ec7ad0a5)
 
-### Week Seven
-For week seven, a few things were added including the bar chart coloring by type, and pickers to choose to view by season or type of percipation. There's also a new tool tip to show the total segment as well that matches the theme. This week, I think that I might pivot my project a bit and add a second type of visual in the next few weeks to use a map and geohash data, since that would round out the data used. I plan to use the city and state as tool-tip data and add markers shaped like bigfoot. At that point, I would have used almost every data column in the CSV which will feel pretty rounded out.
+For week seven, a few things were added including the bar chart coloring by type, and pickers to choose to view by season or type of precipitation. There was also a new tool tip to show the total segment as well that matches the theme.
+
 [![week 7 demo mov](https://github.com/user-attachments/assets/cc41285d-a3c0-4581-a6cf-8edff06af33c)](https://vizhub.com/alexiscaira/b2322c7158ea424d9157c202aa31b435?mode=embed)
 
-### Week Nine
-For week nine, we now have a trend line that can be toggled on and off. We also have an on hover effect for rain and snow based on the bar you hover over (sorted by percipation type) which adds some fun pizzaz. 
+This flowed nicely into the polish part of the graph section of the visualization, which was adding animation with an on-hover effect when the user went over a type of precipitation on the bar chart, along with adding a trend-line for the graphs to help users better see the general shape of the data.
+
 [![week 9 demo mov](https://github.com/user-attachments/assets/8c8fde0c-5f88-4537-a217-c526b96a95c9)](https://vizhub.com/alexiscaira/88a741e7705541198eabb2ded7bc4085?mode=embed)
 
-### Week Ten
-For week ten, we have a map with the geohash data integrated along with a toggle for both view states so you can go back and forth from the graph to this view. 
-[![image](https://github.com/user-attachments/assets/ca6d765f-a200-4c30-83ae-8fa46ee29ee4)](https://vizhub.com/alexiscaira/1e0ebcf019f6471191da476283f65781?mode=embed)
+For the map, we have a map with the geohash data integrated along with a toggle for both view states so you can go back and forth from the graph to this view, and then added a zoom in and zoom out feature that also pans back to the original location the user was on. There is also a tool tip integrated to read specific location reports for a point on the map, which adds a fun layer of interactivity. 
 
-### Week Eleven
-For week 11, we have a map with the geohash data integrated that now has a zoom feature to zoom in and out of the map. I also have added location details to the tool tip to make it a bit more fun to hover around and read reports. 
 [![image](https://github.com/user-attachments/assets/fea52dcc-b708-42eb-8273-9136bb79b494)](https://vizhub.com/alexiscaira/7906aefd34674c4eaef72dce8c6c60ca?mode=embed)
 
-## Open Questions
-For this project, I'm still exploring ways to show the states and showing everything in a wholistic picture, given that the histogram/bar chart would show the correlation the cleanest compared to just an overlay over the states displaying the data. Using the geo data would be fun, but I don't think it blends well to the weather angle I want to run at and just want to make sure I have enough to really build out a cool viz. 
+## Final Product
+The final, put together product can be found [here)](https://vizhub.com/alexiscaira/7906aefd34674c4eaef72dce8c6c60ca?mode=embed) where you can interact with both the graph and the maps and investigate the trends.  
+<img width="1299" height="602" alt="Screenshot 2025-11-13 at 9 12 04 PM" src="https://github.com/user-attachments/assets/97ec7429-7928-48cb-b45e-583040232064" />
+<img width="1300" height="601" alt="Screenshot 2025-11-13 at 9 12 21 PM" src="https://github.com/user-attachments/assets/88326f05-d14b-48a6-885c-6b597c09418e" />
+<img width="1300" height="600" alt="Screenshot 2025-11-13 at 9 12 34 PM" src="https://github.com/user-attachments/assets/c327ee9b-08d2-4f39-acb8-a2fa1e9015af" />
 
-## Milestones
-~Week 5: Updated the data to use the clean/simplied data so more points can be used & added bar charts to match the sketches instead of a scatter plot.~
 
-~Week 6: Create a concept of state & enable users to change the type of data via a input source & update the graphs/axis label/title to reflect~
+## Findings
 
-~Week 7: Split bars by perciptation type/Add key for perciptation type~
+From our graphs, it's clear that Bigfoot sightings skew based on the type of weather reported. Across the temperature averages, there was no strong skew one way or another for generally more reported temperatures for sightings, which makes sense given the diverse climates across the United States. For dew point, there was a larger right skew towards more sightings at higher dew points. Humidity saw a bell-curve adjacent form for the distribution, with more sightings towards the 0.65 to 0.9 percent range. Cloud cover saw a strong skew of less cloudy days reporting more sightings than other coverage percentages. For pressure, the distribution of reports was close to a bell curve, which was unexpected to see in the data and a fun surprise. The UV index and moon phase did not have a large skew one way or another for the number of reports, which seems like a less impactful factor compared to the other data with stronger trends. For visibility, the higher visibility days had more sightings than lower days. For wind speed, more sightings were reported on less windy days than the windier days. 
 
-~Week 9: Explore options for on-hover perciptation animation/Add trend toggle and display line~
+When looking at the map, a few areas across the United States stand out with more reports than others including the pacific northwest and eastern United States. There was a surprising amount reported in Florida and Ohio, which was interesting given that the traditional Bigfoot folklore does not mention those areas commonly.  There were few in the western United States, which also could overlap with the population density for the region as well as the great plain region would be less populated than the larger major cities which would have more people to report sightings. Further future work here could investigate the density against the sightings on the map to confirm these assertions further. 
 
-~Week 10: Add map and integrate geohash data~
-
-~Week 11: Add markers shaped like bigfoots for area, Add tool tip on hover to show city/state data~
-
-Week 12: Polish and integrate vizes to let users choose the view they want to use
+## Takeaways
+This project was a fun exploration into a topic that was a bit on the sillier side but still provided a great learning value as we iterated over the few weeks and better familiarized ourselves with building out data visualizations that users can use and understand. Given a dataset that was very dense and there were so many attributes to work with, it was valuable to do the initial work to sketch and iterate to see how best to fit the data and let things come naturally to create something that really helps give a holistic view to such a broad range. 
