@@ -43,12 +43,13 @@ For the map, we have a map with the geohash data integrated along with a toggle 
 
 [![image](https://github.com/user-attachments/assets/fea52dcc-b708-42eb-8273-9136bb79b494)](https://vizhub.com/alexiscaira/7906aefd34674c4eaef72dce8c6c60ca?mode=embed)
 
+For the polish iteration, pictured below, the colors were updated to lean more into the forest feel. The map also was updated to now have data points as tiny pine trees to also blend into the theme a bit more. There was also some resize work done to now fit the user's browser window to fill it out better and provide more space to interact with. 
+
 ## Final Product
 The final, put together product can be found [here)](https://vizhub.com/alexiscaira/7906aefd34674c4eaef72dce8c6c60ca?mode=embed) where you can interact with both the graph and the maps and investigate the trends.  
-<img width="1299" height="602" alt="Screenshot 2025-11-13 at 9 12 04 PM" src="https://github.com/user-attachments/assets/97ec7429-7928-48cb-b45e-583040232064" />
-<img width="1300" height="601" alt="Screenshot 2025-11-13 at 9 12 21 PM" src="https://github.com/user-attachments/assets/88326f05-d14b-48a6-885c-6b597c09418e" />
-<img width="1300" height="600" alt="Screenshot 2025-11-13 at 9 12 34 PM" src="https://github.com/user-attachments/assets/c327ee9b-08d2-4f39-acb8-a2fa1e9015af" />
-
+<img width="1423" height="735" alt="Screenshot 2025-11-21 at 9 54 58 PM" src="https://github.com/user-attachments/assets/cdad01a0-7f7e-40be-be0e-19792aedd63b" />
+<img width="1421" height="734" alt="Screenshot 2025-11-21 at 9 54 41 PM" src="https://github.com/user-attachments/assets/4c350065-4dec-4e82-8efb-44a8ea6f5d31" />
+<img width="1419" height="734" alt="Screenshot 2025-11-21 at 9 54 32 PM" src="https://github.com/user-attachments/assets/7bd24bd8-c5a3-40f6-ad61-d132418400a5" />
 
 ## Findings
 
